@@ -1,7 +1,7 @@
 PWD c:\Users\nraus\Documents\GitHub\test
 INPUT C:\Users\nraus\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\nraus\Documents\GitHub\test\BozzaSerie.tex
-OUTPUT c:\Users\nraus\Documents\GitHub\test\BozzaSerie.log
+INPUT c:\Users\nraus\Documents\GitHub\test\serie.tex
+OUTPUT c:\Users\nraus\Documents\GitHub\test\serie.log
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
@@ -50,9 +50,9 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\zapfding\pzdr.tfm
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT c:\Users\nraus\Documents\GitHub\test\BozzaSerie.aux
-INPUT c:\Users\nraus\Documents\GitHub\test\BozzaSerie.aux
-OUTPUT c:\Users\nraus\Documents\GitHub\test\BozzaSerie.aux
+INPUT c:\Users\nraus\Documents\GitHub\test\serie.aux
+INPUT c:\Users\nraus\Documents\GitHub\test\serie.aux
+OUTPUT c:\Users\nraus\Documents\GitHub\test\serie.aux
 INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
@@ -77,86 +77,28 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy7.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy5.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy8.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy6.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
-INPUT c:\Users\nraus\Documents\GitHub\test\Tex1.jpg
-INPUT c:\Users\nraus\Documents\GitHub\test\Tex1.jpg
-OUTPUT c:\Users\nraus\Documents\GitHub\test\BozzaSerie.pdf
-INPUT c:\Users\nraus\Documents\GitHub\test\Tex1.jpg
-INPUT c:\Users\nraus\Documents\GitHub\test\Tex1.jpg
-INPUT c:\Users\nraus\Documents\GitHub\test\Tex1.jpg
-INPUT c:\Users\nraus\Documents\GitHub\test\attenzione.pdf
-INPUT c:\Users\nraus\Documents\GitHub\test\attenzione.pdf
-INPUT c:\Users\nraus\Documents\GitHub\test\attenzione.pdf
-INPUT c:\Users\nraus\Documents\GitHub\test\attenzione.pdf
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy5.tfm
+OUTPUT c:\Users\nraus\Documents\GitHub\test\serie.pdf
 INPUT C:\Users\nraus\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmu10.tfm
-INPUT c:\Users\nraus\Documents\GitHub\test\BozzaSerie.aux
+INPUT c:\Users\nraus\Documents\GitHub\test\serie.aux
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmu10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmu10.pfb
