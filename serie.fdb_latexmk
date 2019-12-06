@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1575672503 "c:/Users/nraus/Documents/GitHub/test/serie.tex" "c:/Users/nraus/Documents/GitHub/test/serie.pdf" "serie" 1575672515
+["pdflatex"] 1575673497 "c:/Users/nraus/Documents/GitHub/test/serie.tex" "c:/Users/nraus/Documents/GitHub/test/serie.pdf" "serie" 1575673550
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/symbol/psyr.tfm" 1136768654 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -64,14 +64,14 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/wasysym/wasysym.sty" 1081501262 10872 eca9e56dd071530be0c56f0b968bbdb6 ""
   "C:/Users/nraus/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1567627097 4235383 5254c3cb380eed99096c8b4e364df447 ""
   "C:/Users/nraus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1567626586 80453 73224248f0a73acd005b5611945eaaa6 ""
-  "c:/Users/nraus/Documents/GitHub/test/serie.aux" 1575672504 9 a94a2480d3289e625eea47cd1b285758 ""
-  "c:/Users/nraus/Documents/GitHub/test/serie.tex" 1575672514 5628 2b0ff170964430a6c6e1261734a5c8f8 ""
+  "c:/Users/nraus/Documents/GitHub/test/serie.aux" 1575673497 9 a94a2480d3289e625eea47cd1b285758 ""
+  "c:/Users/nraus/Documents/GitHub/test/serie.tex" 1575673550 5104 8f1c74671e589632f07341f04b0c90a2 ""
   "img.jpg" 1575666369 49678 dbadc18db4ab0f36292722dfdc1f2e47 ""
-  "serie.aux" 1575672504 9 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "serie.tex" 1575672514 5628 2b0ff170964430a6c6e1261734a5c8f8 ""
+  "serie.aux" 1575673497 9 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "serie.tex" 1575673550 5104 8f1c74671e589632f07341f04b0c90a2 ""
   (generated)
+  "c:/Users/nraus/Documents/GitHub/test/serie.log"
   "c:/Users/nraus/Documents/GitHub/test/serie.pdf"
   "serie.log"
   "serie.aux"
-  "c:/Users/nraus/Documents/GitHub/test/serie.log"
   "serie.pdf"
