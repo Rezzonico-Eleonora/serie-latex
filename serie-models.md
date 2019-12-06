@@ -1,3 +1,0 @@
-# MODELLI
-
-## TITOLI
