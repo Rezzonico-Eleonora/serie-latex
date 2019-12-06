@@ -12,12 +12,6 @@
 \usepackage{wasysym}
 \usepackage{pifont}
 
-% added
-
-\usepackage{array}
-
-% /added
-
 % /packages
 
 
@@ -35,13 +29,14 @@
 
 % shortcuts
 
-\newcommand{\df}{\frac}
+\newcommand{\df}{\displaystyle\frac}
 
 % /shortcuts
 
 \begin{document}
 \pagestyle{plain}
 
+% TITLE
 
 \begin{center}
     \LARGE{\bf SERIE 7}
@@ -49,8 +44,12 @@
     \includegraphics[scale=0.5]{./img.jpg}
 \end{center}
 
+% /TITLE
+
+
 \smallskip
 
+% EX1
 
 \fbox{\bf Esercizio 1} \\\\
 Calcola il determinante delle seguenti matrici il più velocemente possibile:
@@ -219,13 +218,81 @@ Calcola il determinante delle seguenti matrici il più velocemente possibile:
     \end{tabular}
 \end{table}
 
+% /EX1 
 
 
-% INSERIRE TITOLO E IMMAGINE
+\bigskip
 
 
-$ \df {1} {2}$
+% EX2
+
+\fbox{\bf Esercizio 2} \\\\
+    Sia $A$ una matrice di tipo $7 \times 7$ con $\det(A)=3$
+    \begin{enumerate}
+        \item Calcola $\det(A^{T})$ e $\det(2A)$
+        \item Determina $\det(B)$, in modo che valga $\det(AB) = -27$
+    \end{enumerate}
+
+% /EX2
+
+
+\bigskip
+
+
+% EX3
+
+\fbox{\bf Esercizio 3} \\\\
+    Dimostra la regola di Sarrus utilizzando il Teorema di Laplace
+
+
+% /EX3
+
+\pagebreak
+
+% EX4
+
+\fbox{\bf Esercizio 4} \\\\
+    Dimostra che il seguente determinante
+
+    \begin{center}
+    $ 
+        \left|
+        \begin{matrix}
+            a_{0} & a_{1} & a_{2} & a_{3} & a_{4} \\
+            -1 & x & 0 & 0 & 0 \\
+            0 & -1 & x & 0 & 0 \\
+            0 & 0 & -1 & x & 0 \\
+            0 & 0 & 0 & -1 & x 
+        \end{matrix}
+        \right|
+    $
+    \end{center}
+
+    è uguale a $\displaystyle\sum\limits_{i=0}^{4}{a_{1} \cdot x^{4-i}}$.
+
+    %
+    %   Due possibilità
+    %   1. $\sum_{i=0}^{4}{a_{1} \cdot x^{4-i}}$
+    %       --> all'interno del testo con i pedici e gli apici della sommatoria
+    %           in posizione "orizzontale"
+    %   2. $$\sum_{i=0}^{4}{a_{1} \cdot x^{4-i}}$$
+    %       --> si crea un blocco a sé in mezzo al foglio, ma i pedici e gli apici
+    %           sono mostrati superiormente e inferiormente
+    %
+    %   Soluzione
+    %   $\sum\limits_{i=0}^{4}{a_{1} \cdot x^{4-i}}$.
+    %   
+    %   Considerare la possibilità di modificare:
+    %   $\displaystyle\sum\limits_{i=0}^{4}{a_{1} \cdot x^{4-i}}$
+    %       --> migliero visiblità e leggibilità
+
+% /EX4
+
+\bigskip
+
+
+
+
+
 
 \end{document}
-
-
