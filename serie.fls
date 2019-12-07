@@ -50,6 +50,14 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\zapfding\pzdr.tfm
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
 INPUT c:\Users\nraus\Documents\GitHub\test\serie.aux
 INPUT c:\Users\nraus\Documents\GitHub\test\serie.aux
 OUTPUT c:\Users\nraus\Documents\GitHub\test\serie.aux
@@ -104,6 +112,8 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\wasy\wasy5.tfm
 INPUT C:\Users\nraus\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
 INPUT c:\Users\nraus\Documents\GitHub\test\serie.aux
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
@@ -123,3 +133,5 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
