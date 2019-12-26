@@ -4,6 +4,8 @@
 * Download Latex: https://www.latex-project.org/
 * Download Texmaker: https://www.xm1math.net/texmaker/
 
+-> In alternativa si può utilizzare [Visual Studio Code](https://code.visualstudio.com/) con l'estensione [Latex Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+
 ## UTILITIES
 * Generatore tabelle: https://www.tablesgenerator.com/
 * Generatore matrici: https://www.matheretter.de/rechner/matrix
