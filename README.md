@@ -1,8 +1,8 @@
 # serie-latex
 
 ## DOWNLOADS
-  Download Latex: https://www.latex-project.org/
-  Download Texmaker: https://www.xm1math.net/texmaker/
+* Download Latex: https://www.latex-project.org/
+* Download Texmaker: https://www.xm1math.net/texmaker/
 
 ## UTILITIES
 * Generatore tabelle: https://www.tablesgenerator.com/
