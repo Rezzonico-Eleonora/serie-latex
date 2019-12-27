@@ -229,7 +229,48 @@
 % EX3
 
 \fbox{\bf Esercizio 3} \\\\
-    Dimostra la regola di Sarrus utilizzando il Teorema di Laplace
+   \underline{Regola di Sarrus:}\\
+
+
+${\begin{vmatrix} 
+a_{11} & a_{12} & a_{13} \\
+a_{21} & a_{22} & a_{23} \\
+a_{31} & a_{32} & a_{33} 
+\end{vmatrix} = a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} + a_{13}a_{21}a_{32} - a_{31}a_{22}a_{13} - a_{32}a_{23}a_{11}-a_{33}a_{21}a_{12}}$
+\\
+\\
+\underline{Dimostrazione:}
+\\
+
+$\text{Utilizziamo il Teorema di Laplace sviluppando secondo la prima riga:}$
+\\
+
+
+${{\begin{vmatrix}
+a_{11} & a_{12} & a_{13} \\
+a_{21} & a_{22} & a_{23} \\
+a_{31} & a_{32} & a_{33}
+\end{vmatrix}}= (-1)^{1+1}\cdot a_{11} \cdot 
+\begin{vmatrix}
+a_{22} & a_{23}\\
+a_{32} & a_{33}
+\end{vmatrix}
++ (-1)^{1+2} \cdot a_{12} \cdot 
+\begin{vmatrix}
+a_{21} & a_{23} \\
+a_{31} & a_ {33}
+\end{vmatrix}
++ (-1)^{1+3} \cdot a_{13} \cdot 
+\begin{vmatrix}
+a_{21} & a_{22} \\
+a_{31} & a_{32}
+\end{vmatrix}=}$ 
+\\
+\\
+$a_{11}a_{22}a_{33} - a_{11}a_{32}a_{23} - a_{12}a_{21}a_{33} + a_{12}a_{31}a_{23} + a_{13}a_{21}a_{32} - a_{13}a_{31}a_{22}$
+\\
+\\
+ $\text{tutti i termini, seppur in ordine differente, corrispondono.}$
 
 
 % /EX3
@@ -241,35 +282,35 @@
 % EX4
 
 \fbox{\bf Esercizio 4} \\\\
-    Dimostra che il seguente determinante
-
-        $$ 
-        \begin{vmatrix}
-            a_{0} & a_{1} & a_{2} & a_{3} & a_{4} \\
-            -1 & x & 0 & 0 & 0 \\
-            0 & -1 & x & 0 & 0 \\
-            0 & 0 & -1 & x & 0 \\
-            0 & 0 & 0 & -1 & x 
-        \end{vmatrix}
-        $$
-    è uguale a $\displaystyle\sum\limits_{i=0}^{4}{a_{1} \cdot x^{4-i}}$.
-
-    %
-    %   Due possibilità
-    %   1. $\sum_{i=0}^{4}{a_{1} \cdot x^{4-i}}$
-    %       --> all'interno del testo con i pedici e gli apici della sommatoria
-    %           in posizione "orizzontale"
-    %   2. $$\sum_{i=0}^{4}{a_{1} \cdot x^{4-i}}$$
-    %       --> si crea un blocco a sé in mezzo al foglio, ma i pedici e gli apici
-    %           sono mostrati superiormente e inferiormente
-    %
-    %   Soluzione
-    %   $\sum\limits_{i=0}^{4}{a_{1} \cdot x^{4-i}}$.
-    %   
-    %   Considerare la possibilità di modificare: 
-    %   $\displaystyle\sum\limits_{i=0}^{4}{a_{1} \cdot x^{4-i}}$
-    %       --> migliero visiblità e leggibilità
-    %   MIGLIORE SOLUZIONE!
+   $\text{Utilizzando il Teorema di Laplace sviluppando secondo la prima colonna.}$
+\\
+\\
+ $\begin{vmatrix}
+ a_0 & a_1 & a_2 & a_3 & a_4 \\
+ -1 & x & 0 & 0 & 0 \\
+ 0 & -1 & x & 0 & 0 \\
+ 0 & 0 & -1 & x & 0 \\
+ 0 & 0 & 0 & -1 & x
+ \end{vmatrix}$
+ $ = a_0 \cdot x^4 + 1 \cdot 
+ \begin{vmatrix}
+ a_1 & a_2 & a_3 & a_4\\ 
+ -1 & x & 0 & 0 \\
+ 0 & -1 & x & 0 \\
+ 0 & 0 & -1 & x
+ \end{vmatrix}$
+ \\
+ \\
+  $\text{e sempre sviluppando la prima colonna ci accorgiamp che il tutto si ripte sempre in modo analogo:}$
+ \\
+ \\
+ ${= a_0 \cdot x^4 + a_1 \cdot x^3 + 1 \cdot 
+  \begin{vmatrix}
+ a_2 & a_3 & a_4\\
+  -1 & x & 0\\
+  0 & -1 & x
+  \end{vmatrix}
+\stackrel{Sarrus}{=} a_0 \cdot x^4 + a_1 \cdot x^3 + a_2 \cdot x^2 + a_4 + a_3 \cdot x =  	\sum_{i=0}^4 a_i \cdot x^{4-i}}$ 
 
 % /EX4
 
@@ -328,34 +369,55 @@
 
 % EX 6
 \fbox{\bf Esercizio 6} \\\\
-    Considera i due punti \underline{distinti} 
-    $v\coloneqq(v_{1},v_{2})$
-    e
-    $w\coloneqq(w_{1},w_{3})$
-    di $\mathbb{R}^{2}$
-    e la retta $L \subset \mathbb{R}^{2}$ passante per $v$ e $w$.
-    \\
-    Dimostra che allora vale:
-
-    %
-    % CONTROLLARE FORMATTAZIONE LINEA VERTICALE
-    %
-
-    $$L= \{ (x_{1}, x_{2}) \in \mathbb{R}^{2} \vert det{
-        \begin{pmatrix}
-            1 & v_{1} & v_{2} \\
-            1 & w_{1} & w_{2} \\
-            1 & x_{1} & x_{2}
-        \end{pmatrix}
-    } = 0 \}$$
-
-    %
-    % CONTROLLARE FORMATTAZIONE E LAYOUT
-    %
-
-    \underline{AIUTO:} 
-    Mostra che l'insieme $L$ definito sopra è equivalente alla forma parametrica
-    di tale retta in $\mathbb{R}^{2}$
+    $\text{Dalla seconda liceo sappiamo che la forma parametrica della retta L passante per i due punti} \\
+v=(v_1,v_2) e w=(w_1,w_2) \text{è data da:}$
+\\
+\\
+$L= \binom{x_1}{x_2}= \binom{v_1}{v_2} + \lambda \binom{w_1 - v_1}{w_2 -_2},$
+\\
+\\
+$\text{in altre parole vale che}: x_i - v_i = \lambda \cdot (w_i - v_i) \text{per i}=1,2.$
+\\
+\\
+$\text{Parallelamente calcoliamo il determinante dato:}$
+\\
+\\
+$\begin{vmatrix}
+1 & v_1 & v_2 \\
+1 & w_1 & w_2 \\
+1 & x_1 & x_2 
+\end{vmatrix}
+\stackrel{II-I}{\stackrel{III-I}{=}} $
+$\begin{vmatrix}
+1 & v_1 & v_2 \\
+0 & w_1-v_1 & w_2 -v_2 \\
+0 & x_1 - v_1 & x_2 - v_2
+\end{vmatrix}
+\stackrel{Laplace}{=} 1\cdot 
+\begin{vmatrix} 
+w_1 - v_1 & w_2 -v_2 \\
+x_1 -v_1 & x_2 -v_2 
+\end{vmatrix}.$
+\\
+\\
+\\
+$\text{Ora, siccome L è definito quando il determinante}
+\begin{vmatrix}
+w_1-v_1 & w_2-v_2 \\
+x_1-v_1 & x_2-v_2
+\end{vmatrix}
+\\
+\text{è uguale a zero, 
+ questo equivale a dire che:}$
+ \\
+ \\
+$(w_1-v_1) \cdot (x_2 -v_2) - (w_2 -v_2) \cdot (x_1 -v_1) = 0 
+\\
+\\
+\leftrightarrow(w_1 -v_1) \cdot (x_2-v_2) = (w_2 -v_2) \cdot (x_1 -v_1)$
+\\
+\\
+$ \text{cioè} \exists \lambda \in \mid \lambda \cdot (w_i -v_i) = (x_i - v_i) \text{per i}=1,2.$
 
     % /EX6
 
